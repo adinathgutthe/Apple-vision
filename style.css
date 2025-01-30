@@ -1,0 +1,519 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: SF PRO DISPLAY;
+    /* font-weight: 600; */
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    position: relative;
+    overflow:hidden;
+}
+#page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+#page nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 7vh;
+    width: 50vw;
+    color: white;
+    background-color: black;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    z-index: 1;
+    transform: translateX(-50%);
+}
+#page nav h3{
+    font-weight: 500;
+}
+#page nav button{
+    padding: 7px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+}
+#page video{
+    height: 100%;
+    width: 50%;
+    object-fit:cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.page1{
+    position:relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+.pageend{
+    height: 20%;
+    width: 25%;
+    position:absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;  
+}
+.pageend h3{
+    color: #dadada93;
+    margin-bottom: 1vw;
+    /* font-size: 8px; */
+}
+.pageend img{
+    width: 100%;
+}
+.check video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.check h1{
+    font-size: 2vw;
+    color: white;
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-weight: 400;
+}
+.page3{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: white;
+}
+.page3 img{
+    width: 60%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.page3head{
+    height: 28%;
+    width: 35%;
+    position: absolute;
+    top: 10%;
+    z-index: 9;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.page3head img{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+}
+.page3inner{
+    position: absolute;
+    bottom: 0%;
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 70px;
+    color: olivedrab;
+}
+.page3inner h3{
+    font-weight: 500;
+}
+.page3 button{
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px 30px;
+    border: 1px solid black;
+    font-weight: 500;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 1.4vw;
+}
+.vision{
+        position: relative;
+        height: 100vh;
+        width: 100vw;
+}
+.vision video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.line{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+.inner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+.page6{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 60vh;
+    background-color: aliceblue;
+}
+.left h1{
+    font-size: 2vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
+}
+.left{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+.right{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    padding-left: 3vw;
+}
+.right h3{
+    font-size: 1.2vw;
+    position: relative;
+    width: 70%;
+    color: gray;
+}
+.right button{
+    padding: 10px 20px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-weight: 500;
+    border-radius: 50px;
+    font-size: 1.2vw;
+    margin-top: 4.5vw;
+}
+.page7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    height: 70vh;
+    width: 100vw;
+    background-color:whitesmoke;
+}
+.page7 h3{
+    margin-bottom: 1vw;
+    font-size: 1.5vw;
+}
+.page7 h1{
+    margin-bottom: 3vw;
+    font-size: 5vw;
+}
+.page7 p{
+    font-size: 1.5vw;
+    width: 48%;
+    font-weight: 600;
+    color: grey;
+}
+#page8{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: whitesmoke;
+}
+#page8>canvas{
+    position: relative;
+    max-width: 100vw;
+    max-height: 100vh;
+    z-index: 1;
+}
+.text1,.text3,.text5{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color:whitesmoke;
+}
+.text1 h1{
+    width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+    font-size: 1.4vw;
+    font-weight: 600;
+    color: grey;
+    z-index: 2;
+    position: absolute;
+}
+span{
+    color: black;
+}
+.text2,.text4,.text6{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: whitesmoke;
+}
+.text2 h1{
+    width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10%;
+    font-size: 1.4vw;
+    font-weight: 600;
+    position: absolute;
+    color: grey;
+    z-index: 2;
+}
+.text3 h1{
+    width: 25%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+    font-size: 1.4vw;
+    font-weight: 600;
+    color: grey;
+    z-index: 2;
+    position: absolute;
+}
+.text4 h1{
+    width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+    font-size: 1.4vw;
+    font-weight: 600;
+    color: grey;
+    z-index: 2;
+    position: absolute;
+}
+.text5 h1{
+    width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10%;
+    font-size: 1.4vw;
+    font-weight: 600;
+    color: grey;
+    z-index: 2;
+    position: absolute;
+}
+.text6 h1{
+    width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+    font-size: 1.4vw;
+    font-weight: 600;
+    color: grey;
+    z-index: 2;
+    position: absolute;
+}
+.page9{
+   height: 100vh;
+   width: 100vw;
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   background-color:whitesmoke;
+
+}
+ .left9{
+    height: 90%;
+    width: 45%;
+    position: relative;
+    background-image: url(img&vid/vision1.jpg);
+    background-size: cover;
+}
+.right9{
+    height: 90%;
+    width: 45%;
+    position: relative;
+    background-image: url(img&vid/vision2.jpg);
+    background-size: cover;
+}
+.page10{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center{
+    height: 90%;
+    width: 95%;
+    position: relative;
+    overflow: hidden;
+}
+.center video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.page11{
+    position: relative;
+    height: 120vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 0.9vw;
+}
+.page11 h2{
+    position: absolute;
+    width: 45%;
+    color: grey;
+    font-weight: 600;
+    top: 5%;
+}
+.page11 img{
+    width: 50%;
+    position: absolute;
+    bottom: 0%;
+}
+.page11 button{
+    position: absolute;
+    bottom: 10%;
+    padding: 10px 20px;
+    font-size: 1.2vw;
+    border-radius: 50px;
+    background-color:orangered;
+    color: white;
+    font-weight: 500;
+    border: none;
+}
+.page12{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+.page12 h3{
+    margin-top: 10vw;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+.page12 h1{
+    width: 48%;
+    font-size: 5vw;
+    position: relative;
+    left: 2%;
+}
+.page12 span{
+    color: white;
+}
+.page12 p{
+    width: 50%;
+    font-size: 1.7vw;
+    font-weight: 600;
+    color: grey;
+    margin-top: 4vw;
+}
+.page13{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    top: 0%;
+    background-color: black;
+}
+.page13 canvas{
+    position: relative;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+.page14{
+    display: flex;
+    align-items: center;
+    /* justify-content:; */
+    color:white;
+    position: relative;
+    height: 30vh;
+    width: 100vw;
+    background-color: black;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1vw;
+}
+.page14 h1{
+    width: 45%;
+}
+.page14 p{
+    margin-top: 2.5vw;
+    width: 40%;
+    font-size: 1.4vw;
+    font-weight: 600;
+    color: grey;
+}
+.page14 span{
+    color: white;
+}
+.page15{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+.page15 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.mini15{
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    flex-direction: column;
+    position: absolute;
+    width: 50%;
+    right: -5%;
+    height: 100%;
+    bottom: 15%;
+    color: white;
+}
+.mini15 h1{
+    font-size: 2vw;
+}
+.mini15 p{
+    width: 50%;
+    color: grey;
+    font-weight: 600;
+    margin-top: 2vw;
+}
+.mini15 span{
+    color: white;
+}
